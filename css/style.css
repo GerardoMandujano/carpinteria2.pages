@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+}
+
+.banner {
+    width: 90%;
+    height: 400px;
+    background-image: url('../img/banner.jpg');
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+
+.menu {
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul {
+    height: 100%;
+    padding-top: 11px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 100% 10px;
+}
+
+.menu a:hover {
+    background-color: chocolate;
+}
+
+
+/*Nosotros//*/
+
+#nosotros {
+    width: 100%;
+    height: 700px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.titulos-centrados {
+    color: rgb(194, 108, 47);
+    padding: 50px;
+    text-align: center;
+}
+
+.nosotros {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-card {
+    margin-left: 80px;
+    padding: 10px;
+    color: rgb(44, 44, 44);
+}
+
+.titulo-card1 {
+    padding: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color: rgb(44, 44, 44);
+}
+
+.parrafo-card {
+    color: #2b2b2b;
+    text-align: justify;
+}
+
+
+/*Trbajos*/
+
+#trabajos {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(221, 221, 221);
+}
+
+.trabajos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*CONTACTANOS*/
+
+#contactanos {
+    width: 100%;
+    height: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 450px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: rgb(194, 108, 47);
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+}
+
+.sociales {
+    margin-top: 150px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
